@@ -14,11 +14,13 @@ public class UserController {
         System.out.println("修改了一些参数...");
         System.out.println("what the fuck!");
         return "haha";
-        
+
     }
 
-    public void haha () {
+    public void haha() {
         System.out.println("fadfaf!");
+    }
+
     public void run() {
         System.out.println("run方法...");
         int i = 1;
