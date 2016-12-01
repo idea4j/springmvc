@@ -19,6 +19,8 @@ public class UserController {
 
     public void haha () {
         System.out.println("fadfaf!");
+    public void run() {
+        System.out.println("run方法...");
+        int i = 1;
     }
-
 }
