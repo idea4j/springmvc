@@ -11,7 +11,14 @@ public class UserController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
+        System.out.println("修改了一些参数...");
+        System.out.println("what the fuck!");
         return "haha";
+        
+    }
+
+    public void run() {
+        System.out.println("run方法...");
     }
 
     public void run() {
