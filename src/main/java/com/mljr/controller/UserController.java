@@ -13,4 +13,8 @@ public class UserController {
     public String test() {
         return "haha";
     }
+
+    public void run() {
+        System.out.println("run方法...");
+    }
 }
