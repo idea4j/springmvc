@@ -12,6 +12,7 @@ public class UserController {
     @ResponseBody
     public String test() {
         System.out.println("修改了一些参数...");
+        System.out.println("what the fuck!");
         return "haha";
         
     }
