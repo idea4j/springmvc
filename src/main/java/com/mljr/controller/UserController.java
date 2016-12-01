@@ -11,6 +11,8 @@ public class UserController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
+        System.out.println("修改了一些参数...");
         return "haha";
+        
     }
 }
