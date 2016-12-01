@@ -19,5 +19,6 @@ public class UserController {
 
     public void run() {
         System.out.println("run方法...");
+        int i = 1;
     }
 }
