@@ -21,5 +21,6 @@ public class UserController {
         String name = "tinker";
         System.out.println("run方法...");
         int i = 1;
+        int j = 123;
     }
 }
