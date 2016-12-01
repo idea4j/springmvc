@@ -18,6 +18,7 @@ public class UserController {
     }
 
     public void run() {
+        String name = "tinker";
         System.out.println("run方法...");
         int i = 1;
     }
